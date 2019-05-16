@@ -6,7 +6,7 @@ function main() {
   function showInfo() {
     removeListeners();
     
-    var modal = document.getElementsByClassName('modal')[0];
+    var modal = parentNode.getElementsByClassName('modal')[0];
         modal.style.display = 'block';
     var close = modal.getElementsByClassName('close')[0];
         close.addEventListener('click',hideInfo);

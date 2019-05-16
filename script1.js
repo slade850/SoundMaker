@@ -18,7 +18,7 @@ function mod2() {
     document.getElementById('overlay').addEventListener('click',hideInfo);
   }
   function hideInfo() {
-    var boxes = document.querySelectorAll('.modal');
+    var boxes = document.getElementsByClassName('modal');
     for (var i=0;i<boxes.length;i++) {
       boxes[i].style.display = 'none';
 }}
