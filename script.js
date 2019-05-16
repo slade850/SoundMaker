@@ -41,6 +41,3 @@ function handleOverlay(status) {
   var overlay = document.getElementById('overlay');
       overlay.style.display = status;
 }
-  function lect(){
-  document.getElementById("sp").play();
-  }
